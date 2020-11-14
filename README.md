@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://aluiziodeveloper.com.br/">
+    <img alt="Aluizio Developer" src="https://aluiziodeveloper.com.br/assets/img/icon.png" width="200" />
+  </a>
+</p>
+<h2 align="center">
+Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
+</h2>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Mini Curso Gratuito - Criação de SPA com ReactJS e Typescript
 
-## Available Scripts
+Seja bem-vindo a este mini curso onde iremos conhecer o ReactJS e entender o processo de criação de SPA's - Single Page Application.
 
-In the project directory, you can run:
+Mini curso disponível no YouTube. Segue abaixo o link da playlist.
 
-### `yarn start`
+[Playlist no YouTube deste Mini Curso de ReactJS e Typescript](https://www.youtube.com/watch?v=KhuHgLdwIsg&list=PLE0DHiXlN_qpm0nMlvcVxG_O580IXmeRU)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Objetivo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O objetivo do mini curso é dar o ponta pé inicial nos conceitos e recursos do ReactJS, focado no aprendizado daqueles que ainda não conhecem essa biblioteca ou framework, iniciantes em desenvolvimento de aplicações web com foco no front-end.
 
-### `yarn test`
+A idéia é implementar uma aplicação front-end com ReactJS e Typescript para consumir a API que foi desenvolvida durante o mini curso gratuito de API Node.js com Typescript, também disponível no meu canal do Youtube.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mesmo que o seu foco seja somente front-end, recomendo que acompanhe também o mini curso de back-end, pois vários conceitos que estão naquele curso não serão repetidos aqui, como por exemplo, Node.js e NPM, API Restful, Requisições HTTP, Typescript, além de outros.
 
-### `yarn build`
+Playlist Mini Curso API Restful com Node.js e Typescript: https://www.youtube.com/watch?v=M-pNDHC25Vg&list=PLE0DHiXlN_qp251xWxdb_stPj98y1auhc
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Repositório no Github da API: https://github.com/aluiziodeveloper/mini-curso-gratuito-node-typescript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Aproveite para conhecer o Curso para Criação de Ambiente de desenvolvimento no Windows 10 com WSL2 e Docker.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para mais informações sobre o curso acesse o link abaixo:
 
-### `yarn eject`
+https://www.udemy.com/course/ambiente-de-desenvolvimento-no-windows-10-com-wsl-2-e-docker/?referralCode=CEE2BDF684FD387269A1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para aqueles que utilizam hospedagem compartilhada para sites/sistemas indico o curso Deploy de App Laravel em Hospdagem Compartilhada utilizando Git e SSH. Apesar de abordar uma aplicação Laravel, o método usado no curso é facilmente aproveitado para qualquer aplicação web. Confira acessando o link abaixo:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://www.udemy.com/course/deploy-app-laravel-em-hospedagem-compartilhada-com-git-e-ssh/?referralCode=162D6C852F3B40C45841
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Rodando a aplicação no seu PC
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
 
-## Learn More
+```
+git clone https://github.com/aluiziodeveloper/mini-curso-reactjs.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Após clonar o conteúdo do repositório, acesse o diretório criado e efetue a instalação das dependências:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+cd mini-curso-reactjs
+
+npm install
+```
+
+Após essa instalação execute a aplicação com o comando `npm start`. Acesse a url `http://localhost:3000` no browser.
+
+## Contato
+
+[Site Aluizio Developer](https://aluiziodeveloper.com.br)
+
+[Instagram](https://www.instagram.com/smartcontacts/)
+
+[YouTube](https://www.youtube.com/jorgealuizio)
