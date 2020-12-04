@@ -1,5 +1,5 @@
 import React, { ChangeEvent, FormEvent, useCallback, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import {FiArrowLeft} from 'react-icons/fi';
 import { Map, TileLayer, Marker} from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
@@ -27,6 +27,8 @@ const CreateLocation: React.FC = () => {
     });
 
     const [selectedItems, setSelectedItems] = useState<number[]>([]);
+
+    const history = useHistory();
 
     useEffect(() => {
         api.get('items').then(response => {
@@ -79,6 +81,10 @@ const CreateLocation: React.FC = () => {
         };
 
         await api.post('locations', data);
+
+        alert('Estabelecimento cadastrado com sucesso!');
+
+        history.push('/');
     }, [formData, selectedItems, selectedMapPosition]);
 
     return (
