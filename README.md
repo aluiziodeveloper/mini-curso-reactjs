@@ -27,16 +27,6 @@ Playlist Mini Curso API Restful com Node.js e Typescript: https://www.youtube.co
 
 Repositório no Github da API: https://github.com/aluiziodeveloper/mini-curso-gratuito-node-typescript
 
-Aproveite para conhecer o Curso para Criação de Ambiente de desenvolvimento no Windows 10 com WSL2 e Docker.
-
-Para mais informações sobre o curso acesse o link abaixo:
-
-https://www.udemy.com/course/ambiente-de-desenvolvimento-no-windows-10-com-wsl-2-e-docker/?referralCode=CEE2BDF684FD387269A1
-
-Para aqueles que utilizam hospedagem compartilhada para sites/sistemas indico o curso Deploy de App Laravel em Hospdagem Compartilhada utilizando Git e SSH. Apesar de abordar uma aplicação Laravel, o método usado no curso é facilmente aproveitado para qualquer aplicação web. Confira acessando o link abaixo:
-
-https://www.udemy.com/course/deploy-app-laravel-em-hospedagem-compartilhada-com-git-e-ssh/?referralCode=162D6C852F3B40C45841
-
 ## Rodando a aplicação no seu PC
 
 Faça um clone deste repositório e instale no seu ambiente de desenvolvimento usando o seguinte comando no seu terminal (escolha um diretório apropriado):
@@ -55,10 +45,12 @@ npm install
 
 Após essa instalação execute a aplicação com o comando `npm start`. Acesse a url `http://localhost:3000` no browser.
 
-## Contato
+## Redes Sociais
 
 [Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
-[Instagram](https://www.instagram.com/smartcontacts/)
-
 [YouTube](https://www.youtube.com/jorgealuizio)
+
+[Servidor no Discord](https://discord.gg/3J87BMz5fD)
+
+[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
